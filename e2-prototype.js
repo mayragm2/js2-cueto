@@ -16,3 +16,18 @@ console.log (myBora);
 
 const myR12 = new Vehicle ("Renault 12L", 80);
 console.log (myR12);
+
+Vehicle.prototype.honk = function (honks) {
+    honks !== honks;
+
+    if (honks === true){    
+        console.log(`${this.make} honks!`);
+}   else {
+    console.log(`${this.make} stopped honking!`)
+}
+}
+
+myR12.honk (true);
+
+myR12.honk (false);
+ 
