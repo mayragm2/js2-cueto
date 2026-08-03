@@ -36,3 +36,5 @@ console.log (d1);
 d1.play (12);
 
 d1.play (2);
+
+console.log (Object.getPrototypeOf(Dog.prototype) === Animal.prototype );  //acceptance criteria
